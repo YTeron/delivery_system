@@ -1,0 +1,1 @@
+{"_default": {}, "customers": {"1": {"id": 1, "name": "\u0418\u0432\u0430\u043d", "phone": "+71457077", "address": "\u041c\u043e\u0441\u043a\u0432\u0430"}}, "orders": {"1": {"id": 1, "customer_id": 1, "order_date": "2025-04-20", "status": "\u043d\u043e\u0432\u044b\u0439", "total": 1500, "items": [{"product_name": "\u041f\u0438\u0446\u0446\u0430", "quantity": 2, "price": 750}]}}}
