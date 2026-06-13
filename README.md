@@ -40,28 +40,27 @@ python main_cli.py --help
   pytest tests/test_models.py
   # Тестирование экспорта/импорта
   pytest tests/test_export.py
-## структура проэкта
 delivery_system/
-|
-|── main_gui.py              # GUI-точка входа (Tkinter)
-|── main_cli.py              # CLI-точка входа (argparse)
-|── database.py              # Работа с БД (TinyDB)
-|── models.py                # Модели данных (Customers, Orders, Items)
-|── data_export.py           # Экспорт/импорт JSON
-|── logger_config.py         # Настройка логирования
-|── requirements.txt         # Зависимости проекта
-|── README.md                # Инструкция по установке и запуску
-|
-|── data/                    # Папка с данными
-|   |── tinydb.json          # База данных (создаётся автоматически)
-|
-|── logs/                    # Папка с логами
-|   |── delivery_system_20250613.log
-|
-|── tests/                   # Папка с тестами
-|   |── test_database.py     # Тесты БД
-|   |── test_models.py       # Тесты моделей
-|── |── test_export.py       # Тесты экспорта/импорта
+│
+├── main_gui.py # GUI-точка входа (Tkinter)
+├── main_cli.py # CLI-точка входа (argparse)
+├── database.py # Работа с БД (TinyDB)
+├── models.py # Модели данных (Customers, Orders, Items)
+├── data_export.py # Экспорт/импорт JSON
+├── logger_config.py # Настройка логирования
+├── requirements.txt # Зависимости проекта
+├── README.md # Инструкция по установке и запуску
+│
+├── data/ # Папка с данными
+│ └── tinydb.json # База данных (создаётся автоматически)
+│
+├── logs/ # Папка с логами
+│ └── delivery_system_20250613.log
+│
+└── tests/ # Папка с тестами
+├── test_database.py # Тесты БД
+├── test_models.py # Тесты моделей
+└── test_export.py # Тесты экспорта/импорта
 ### Автор
 Трусов Артём Олегович
 ```bash
