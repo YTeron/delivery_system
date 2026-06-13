@@ -430,7 +430,7 @@ class DeliverySystemGUI:
             except ValueError:
                 messagebox.showerror("Ошибка", "ID должен быть числом")
         
-        ttk.Button(dialog, text="💾 Сохранить заказ", command=save_order).pack(pady=20)
+        ttk.Button(dialog, text="Сохранить заказ", command=save_order).pack(pady=20)
     
     def edit_order_status(self):
         selected = self.orders_tree.selection()
